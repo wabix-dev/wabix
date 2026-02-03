@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wabix",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "@jesstelford/react-portal-universal": "1.0.6",
+    "wabix": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

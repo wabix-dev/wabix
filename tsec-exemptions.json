@@ -1,0 +1,27 @@
+{
+  "ban-element-innerhtml-assignments": [
+    "packages/wabix/src/client/head-manager.ts",
+    "packages/wabix/src/client/script.tsx",
+    "packages/wabix/src/client/dev/dev-build-watcher.ts",
+    "packages/wabix/src/client/app-bootstrap.ts",
+    "packages/wabix/src/client/components/prerender-indicator.ts"
+  ],
+  "ban-element-setattribute": [
+    "packages/wabix/src/client/head-manager.ts",
+    "packages/wabix/src/client/script.tsx",
+    "packages/wabix/src/client/set-attributes-from-props.ts",
+    "packages/wabix/src/build/webpack/loaders/next-style-loader/runtime/injectStylesIntoLinkTag.ts",
+    "packages/wabix/src/build/webpack/loaders/next-style-loader/runtime/injectStylesIntoStyleTag.ts",
+    "packages/wabix/src/client/app-bootstrap.ts",
+    "packages/wabix/src/client/components/errors/graceful-degrade-boundary.tsx"
+  ],
+  "ban-script-appendchild-calls": [
+    "packages/wabix/src/next-devtools/dev-overlay.browser.tsx"
+  ],
+  "ban-script-content-assignments": ["packages/wabix/src/client/script.tsx"],
+  "ban-script-src-assignments": [
+    "packages/wabix/src/client/script.tsx",
+    "packages/wabix/src/client/app-bootstrap.ts"
+  ],
+  "ban-trustedtypes-createpolicy": ["packages/wabix/src/client/trusted-types.ts"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "basic-css",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wabix",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "lost": "8.2.0",
+    "wabix": "latest",
+    "postcss-nested": "2.1.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-jsx-plugin-postcss": "0.1.0"
+  },
+  "license": "ISC",
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "postcss-nested": {}
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bench-heavy-npm-deps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev-turbopack": "wabix dev --turbopack",
+    "dev-webpack": "wabix dev --webpack",
+    "build-turbopack": "wabix build --turbopack",
+    "build-webpack": "wabix build --webpack",
+    "start-turbopack": "wabix start",
+    "start-webpack": "wabix start",
+    "build-application": "wabix build",
+    "start-application": "wabix start"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.10.1",
+    "lodash-es": "^4.17.21",
+    "lucide-react": "^0.383.0",
+    "mermaid": "^10.9.1",
+    "wabix": "workspace:*",
+    "tailwindcss": "3.2.7"
+  }
+}

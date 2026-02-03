@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wabix dev",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "wabix": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recoil": "0.7.7"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "module-cost",
+  "scripts": {
+    "prepare-bench": "node scripts/prepare-bench.mjs",
+    "benchmark": "node scripts/benchmark-runner.mjs",
+    "dev-webpack": "wabix dev --webpack",
+    "dev-turbopack": "wabix dev --turbopack",
+    "build-webpack": "wabix build --webpack",
+    "build-turbopack": "wabix build --turbopack",
+    "start": "wabix start"
+  },
+  "devDependencies": {
+    "rimraf": "6.0.1",
+    "wabix": "workspace:*",
+    "playwright": "^1.40.0"
+  }
+}
