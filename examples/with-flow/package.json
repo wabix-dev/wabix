@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wabix",
+    "build": "wabix build",
+    "flow": "flow",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "wabix": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-wabix": "latest",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "flow-bin": "0.77.0"
+  }
+}

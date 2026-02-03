@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wabix dev",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "joi": "latest",
+    "wabix": "latest",
+    "next-connect": "latest",
+    "next-joi": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}

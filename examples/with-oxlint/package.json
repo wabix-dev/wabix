@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wabix dev --turbopack",
+    "build": "oxlint --type-aware && next build",
+    "start": "wabix start",
+    "lint": "oxlint --type-aware"
+  },
+  "dependencies": {
+    "wabix": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "oxlint": "1.15.0",
+    "oxlint-tsgolint": "0.2.0",
+    "typescript": "^5"
+  }
+}

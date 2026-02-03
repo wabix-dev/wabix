@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "wabix dev",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}

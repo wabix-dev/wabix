@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wabix",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "fela": "latest",
+    "fela-dom": "latest",
+    "fela-preset-web": "latest",
+    "wabix": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fela": "latest"
+  }
+}

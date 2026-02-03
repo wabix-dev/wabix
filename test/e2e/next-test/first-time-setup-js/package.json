@@ -1,0 +1,14 @@
+{
+  "name": "next-testmode-integration-test-first-time-setup-js",
+  "private": "true",
+  "scripts": {
+    "dev": "wabix dev",
+    "build": "wabix build",
+    "start": "wabix start"
+  },
+  "dependencies": {
+    "wabix": "canary",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  }
+}

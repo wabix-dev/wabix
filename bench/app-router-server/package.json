@@ -1,0 +1,15 @@
+{
+  "name": "bench-app-router-server",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "webpack-bundle-analyzer": "^4.6.1",
+    "webpack-stats-plugin": "^1.1.0",
+    "wabix": "workspace:*",
+    "next-minimal-server": "workspace:*"
+  },
+  "scripts": {
+    "build-application": "wabix build",
+    "start": "next-minimal-server"
+  }
+}
